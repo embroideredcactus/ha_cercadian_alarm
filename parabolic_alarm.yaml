@@ -37,7 +37,7 @@ blueprint:
       default: 10
       selector:
         number:
-          min: 1
+          min: 0
           max: 60
     steps_per_minute:
       name: Steps per minute for all runs
@@ -83,16 +83,16 @@ blueprint:
       selector:
         color_temp:
       default: 300
-      name: Min Mireds 1
+      name: Min Mireds 2
     max_mireds_2:
       description: >-
         Maximum mireds value (warmest) for 1st run
       selector:
         color_temp:
       default: 400
-      name: Max Mireds 1
+      name: Max Mireds 2
     max_brightness_2:
-      name: Maximum Brightness 1
+      name: Maximum Brightness 2
       selector:
         number:
           min: 1
@@ -113,16 +113,16 @@ blueprint:
       selector:
         color_temp:
       default: 160
-      name: Min Mireds 1
+      name: Min Mireds 3
     max_mireds_3:
       description: >-
         Maximum mireds value (warmest) for 1st run
       selector:
         color_temp:
       default: 400
-      name: Max Mireds 1
+      name: Max Mireds 3
     max_brightness_3:
-      name: Maximum Brightness 1
+      name: Maximum Brightness 3
       selector:
         number:
           min: 1
